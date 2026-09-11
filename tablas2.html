@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Permite utilizar correctamente caracteres como ñ y tildes -->
+    <meta charset="UTF-8">
+
+    <!-- Hace que la página se adapte al tamaño de la pantalla -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Conecta este archivo HTML con nuestra hoja de estilos CSS -->
+    <link rel="stylesheet" href="estilosTabla.css">
+
+    <!-- Título que aparecerá en la pestaña del navegador -->
+    <title>Tabla #2</title>
+</head>
+
+<body>
+
+    <!--
+        Tabla #2 del laboratorio.
+        La clase "tabla" permitirá aplicar los estilos
+        definidos en el archivo estilosTabla.css.
+    -->
+    <table class="tabla">
+
+        <!--
+            Primera fila de la tabla.
+            Se utiliza <th> porque son las cabeceras.
+        -->
+        <tr class="modo1">
+
+            <!-- Cabecera de la columna de fecha -->
+            <th>Fecha</th>
+
+            <!-- Cabecera de unidades vendidas -->
+            <th>Unidades Vendidas</th>
+
+            <!-- Cabecera de precio -->
+            <th>Precio por unidad</th>
+
+            <!-- Cabecera de ITBMS -->
+            <th>ITBMS</th>
+
+        </tr>
+
+
+        <!--
+            Primera fila de datos.
+            La clase "modo2" permite darle un estilo
+            diferente a esta fila.
+        -->
+        <tr class="modo2">
+
+            <!-- Fecha de la venta -->
+            <th>29/10/07</th>
+
+            <!-- Cantidad de unidades vendidas -->
+            <td>520</td>
+
+            <!-- Precio de cada unidad -->
+            <td>420</td>
+
+            <!-- Impuesto ITBMS -->
+            <td>67.20</td>
+
+        </tr>
+
+
+        <!--
+            Segunda fila de datos.
+            En este caso utilizamos la clase "modo1".
+        -->
+        <tr class="modo1">
+
+            <!-- Fecha de la venta -->
+            <th>29/10/07</th>
+
+            <!-- Cantidad de unidades vendidas -->
+            <td>520</td>
+
+            <!-- Precio de cada unidad -->
+            <td>420</td>
+
+            <!-- Impuesto ITBMS -->
+            <td>67.20</td>
+
+        </tr>
+
+    </table>
+
+</body>
+
+</html>

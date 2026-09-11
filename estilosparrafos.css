@@ -1,0 +1,21 @@
+/*
+    Selector descendiente:
+    p strong significa que los estilos se aplicarán
+    a los elementos <strong> que estén dentro de un <p>.
+*/
+p strong {
+    /* Tipo de letra */
+    font-family: "Trebuchet MS", Arial;
+
+    /* Tamaño de la letra */
+    font-size: 12px;
+
+    /* Alineación del texto */
+    text-align: justify;
+
+    /* Color del texto */
+    color: #34484E;
+
+    /* Color de fondo */
+    background-color: #ffc;
+}
